@@ -9,8 +9,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "text-primary": "#232161",
+        "text-secondary": "#6D63FF",
+        "white-opacity-40": "rgba(255, 255, 255, 0.4)",
+      },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+      },
+      fontSize: {
+        "title-l": "28px",
+        "title-2": "16x",
+        "custom-20": "20px",
+        "custom-14": "14px",
+      },
+      borderRadius: {
+        "40px": "40px",
+      },
+      backgroundImage: {
+        "primary-gradient": "linear-gradient(to right, #6D63FF, #CC98FF)",
       },
     },
   },
